@@ -1,0 +1,61 @@
+ClinicSetu - SaaS for Clinic Workflow Management
+
+Core Features:
+
+1. Appointment & Scheduling
+- Patient self-booking with SMS/email reminders
+- Doctor calendar with availability slots
+- Walk-in vs appointment tracking
+- Missed/cancelled visit reports
+
+2. Electronic Health Records (EHR)
+- Patient history with search/filter
+- Prescription records and templates
+- Diagnostic and lab results uploads
+- Consent forms and document management
+
+3. Billing & Invoicing
+- Consultation charges with GST/custom tax support
+- Integrated POS system or payment gateway
+- Invoice download (PDF), email, and print options
+- Insurance processing support
+
+4. Staff & Role Management
+- Admin, Doctors, Nurses, Receptionist roles
+- Attendance tracker or shift management (optional)
+- Audit logs of critical activities
+
+5. Inventory Management
+- Track stock for medicines, consumables, and devices
+- Expiry alerts, reorder levels, batch tracking
+
+6. Teleconsultation (optional MVP feature)
+- Video call integration (Zoom/Agora/3rd party SDK)
+- Prescription sharing after call
+- Secure chat between patient & doctor
+
+7. Patient Portal
+- Patient login to access history, prescriptions, lab results
+- Request appointments, view upcoming visits
+- Pay invoices online
+
+8. Analytics & Reports
+- Daily/weekly/monthly revenue reports
+- Appointment stats, doctor performance, no-show stats
+- Inventory usage reports
+
+9. Notifications & Reminders
+- SMS/Email/WhatsApp integrations
+- Automated reminders for appointments, payments, meds
+
+10. Security & Compliance
+- Role-based access
+- Data encryption in transit and at rest
+- GDPR/HL7/HIPAA readiness (based on target market)
+
+Optional Add-ons (Premium Plan):
+- WhatsApp bot for appointment booking
+- AI assistant for symptom pre-screening
+- Integrated CRM for patient retention/follow-ups
+- Patient satisfaction surveys
+- Custom branded app for larger clinics
