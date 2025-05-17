@@ -1,1 +1,92 @@
-/* You can add global styles to this file, and also import other style files */
+$primary-color: #EFFFFD; // Light cyan
+$secondary-color: #B980F0; // Lighter turquoise
+$tertiary-color: #B980F0;
+$accent-color: #1E90FF;
+$text-color: #001224;
+$text-grey-color: #4B5563; // Dark grey
+
+
+$font-heading: 'Poppins', sans-serif;
+$font-body: 'Inter', 'Nunito', sans-serif;
+$font-mono: 'Courier New', monospace;
+$font-size-base: 1rem; // 16px
+
+/* Base styles */
+body {
+    font-family: $font-body;
+    font-size: 1em;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-heading;
+    color: #222222;
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/* Paragraphs */
+p,
+span,
+li {
+    font-family: $font-body;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #444444;
+    margin-bottom: 1rem;
+}
+
+/* Buttons, inputs, selects, textareas */
+button,
+input,
+select,
+textarea {
+    font-family: $font-body;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #222222;
+}
+
+/* Links */
+a {
+    color: #4FC3F7;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

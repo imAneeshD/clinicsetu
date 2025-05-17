@@ -1,5 +1,12 @@
 ClinicSetu - SaaS for Clinic Workflow Management
 
+
+Color scheme: 
+$primary-color: #4FC3F7;
+$secondary-color: #66BB6A;
+$accent-color: #FFB74D;
+
+
 Core Features:
 
 1. Appointment & Scheduling
